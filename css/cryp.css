@@ -1,3 +1,47 @@
 body{
-    background-color:cornflowerblue;
+    background-color:#200433;
+} 
+nav{
+    background-color:#4d275cc9;
 }
+#trendbox{
+    margin-bottom:17px ;
+    border: 2px solid grey;
+    border-radius: 20px;
+    background-color: hsla(270, 33%, 14%, 0.788);
+}
+#trend{
+    color: aliceblue;
+    margin-top: 2px;
+    padding: 10px;
+    background-color: #802763c9; 
+    border-width: 0;
+    border-radius: 20px;
+}
+#tr{
+    color: aliceblue;
+    margin-top: 2px;
+    padding: 10px;
+    background-color: #200433; 
+    border-width: 0;
+    border-radius: 20px;
+}
+#hr{
+    border: 1px solid grey;
+}
+#boxes{
+    display: grid;
+    grid-template-columns: 33% 33% 33% ;
+    
+}
+.box:hover {
+    background-color: rgb(76, 55, 90);    
+   }
+.box{
+    margin:5px;
+    padding:10px;
+    border-radius: 20px;
+}
+
+
+
